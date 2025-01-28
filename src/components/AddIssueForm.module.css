@@ -1,0 +1,105 @@
+
+/* Container for the form */
+.add-issue-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  /* Heading */
+  .add-issue-form-container h3 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling form labels */
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling form controls (input, textarea, select) */
+  .form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Focus state for form controls */
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Styling textarea */
+  textarea.form-control {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Styling for the severity dropdown */
+  .form-control[type="select"] {
+    background-color: #f8f9fa;
+  }
+  
+  /* Upload image button */
+  input[type="file"] {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  /* Submit button */
+  button[type='submit'] {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the submit button */
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alert message */
+  .alert {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  /* Spacing between the form groups */
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  /* Styling for the file upload section */
+  .form-group input[type="file"] {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 576px) {
+    .add-issue-form-container {
+      padding: 20px;
+      margin-top: 20px;
+    }
+  }
+  

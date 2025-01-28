@@ -1,0 +1,38 @@
+ 
+.custom-navbar {
+    background-color: #343a40;  
+    padding: 10px 20px;  
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .navbar-brand h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa; /* White color for brand */
+    margin: 0;
+  }
+  
+  .custom-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin-right: 10px; /* Space between buttons */
+  }
+  
+  button {
+    text-transform: uppercase; 
+  }
+  
+  button:hover {
+    background-color: #00bfff;  
+    border-color: #00bfff; 
+  }
+  
+  
+  button:focus {
+    box-shadow: none; /* Remove focus outline */
+  }
+  

@@ -1,0 +1,40 @@
+/* IssueTable.css */
+.full-screen {
+  background-color: hsl(210, 6%, 75%);  
+  padding: 20px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.issue-table {
+  width: 100%; /* Ensure full-width */
+}
+
+.issue-table th,
+.issue-table td {
+  text-align: center;  
+  vertical-align: middle;  
+}
+
+.issue-table th {
+  background-color: #0056b3;  
+  color: white;  
+}
+
+.issue-table td {
+  background-color: #fff; /* Light blue for table rows */
+}
+
+.issue-table td img {
+  max-width: 100%; /* Ensure image is responsive */
+  max-height: 150px;  
+  display: block;
+  margin: 0 auto;  
+}
+
+.btn-warning,
+.btn-danger {
+  margin: 5px;
+}
