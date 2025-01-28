@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./IssueTable.css";
 
 const IssueTable = () => {
-  const BASE_URL = "https://issuetracking-backendapp.onrender.com"; // Update this with your backend URL
+  const BASE_URL = "https://issuetracking-backendapp.onrender.com"; // it is hosted url which is hosted in render.com
   const [issues, setIssues] = useState([]);
   const [editing, setEditing] = useState(null); // Track editing state
   const [editValue, setEditValue] = useState(""); // Track the value being edited
@@ -279,7 +279,7 @@ const IssueTable = () => {
                   </td>
                   <td>
                   <img
-                  src={`${BASE_URL}${issue.imageUrl}`} // Ensure the URL is correctly pointing to the backend
+                  src={`${BASE_URL}${issue.imageUrl}`} //  backend url
                   alt="Issue"
                   style={{ width: "100px", height: "100px", objectFit: "cover" }}
                 />
@@ -364,7 +364,7 @@ const IssueTable = () => {
         </Table>
       </div>
 
-      {/* Modal for editing issue */}
+     
       {/* Modal for editing issue */}
       <Modal show={showModal} onHide={() => setShowModal(false)} centered>
         <Modal.Header closeButton>
